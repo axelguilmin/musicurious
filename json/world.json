@@ -1,0 +1,70 @@
+{
+  "NO" : { 
+    "title": "Norway : Röyksopp and Robyn - Sayit",
+    "youtubeId" : "CNu7_CAJ3uA", 
+    "wikipediaPage" : "Röyksopp"
+  },
+  "BA" : { 
+    "title": "Bosnia : Goran Bregović - Gas Gas",
+    "youtubeId" : "3jVc8coAUhc", 
+    "wikipediaPage" : "Goran_Bregović"
+  }, 
+  "HR" : { 
+    "title": "Croatia : 2Cellos - Welcome to the jungle ",
+    "youtubeId" : "bNXS-gMLQxE", 
+    "wikipediaPage" : "2Cellos"
+  }, 
+  "FR" : { 
+    "title": "France : Justin(e) - Kronstadt",
+    "youtubeId" : "cqXAOB5-dbI", 
+    "wikipediaPage" : "Justin(e)", 
+    "wikipediaLocalization" : "fr"
+  }, 
+  "DE" : { 
+    "title": "Germany : Cro - Hi Kids",
+    "youtubeId" : "ZapxPJb1_18", 
+    "wikipediaPage" : "Cro_(rapper)"
+  },
+  "MX" : { 
+    "title": "Mexico : Molotov - Heroes",
+    "youtubeId" : "lvQUnfdWN_Q", 
+    "wikipediaPage" : "Molotov_(band)"
+  },
+  "BE" : { 
+    "title": "Belgium : Stromae - Papaoutai",
+    "youtubeId" : "zfJ_5RJ3E1I", 
+    "wikipediaPage" : "Stromae"
+  },
+  "SE" : { 
+    "title": "Sweden : Dunderpatrullen - How To Adventure",
+    "youtubeId" : "BuB260Fv21U", 
+    "wikipediaPage" : "Dunderpatrullen",
+    "wikipediaLocalization" : "sv"
+  },
+  "CI" : {
+    "title": "Ivory Coast : Tiken Jah Fakoly - Discrimination",
+    "youtubeId" : "zPavLVg7XIw", 
+    "wikipediaPage" : "Tiken_Jah_Fakoly"
+  },
+  "BG" : {
+    "title": "Bulgaria : Violons Barbares - Bayan Olgyi",
+    "youtubeId" : "zPavLVg7XIw", 
+    "wikipediaPage" : "Violons_barbares",
+    "wikipediaLocalization" : "fr"
+  },
+  "GB" : {
+    "title": "Great Britain : Irish Rovers - Drunken Sailer",
+    "youtubeId" : "qGyPuey-1Jw", 
+    "wikipediaPage" : "The_Irish_Rovers"
+  },
+  "US" : {
+    "title": "USA : Pomplamoose - I Feel Good (James Brown cover)",
+    "youtubeId" : "HtdxFLFjFVI", 
+    "wikipediaPage" : "Pomplamoose"
+  },
+  "AU" : {
+    "title": "Australia : Dub FX - Love Someone",
+    "youtubeId" : "UiInBOVHpO8", 
+    "wikipediaPage" : "Dub FX"
+  }
+}

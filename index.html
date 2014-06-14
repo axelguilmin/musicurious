@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Musicurious World Tour</title>
+
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="favicon/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+
+    <link rel="stylesheet" type="text/css" href="font/flaticon.css">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+    <!-- jvectormap -->
+    <script src="lib/jquery-2.1.1.min.js"></script>
+    <script src="lib/jquery-jvectormap.js"></script>
+    <script src="lib/jquery-mousewheel.js"></script>
+
+    <script src="lib/jvectormap.js"></script>
+
+    <script src="lib/abstract-element.js"></script>
+    <script src="lib/abstract-canvas-element.js"></script>
+    <script src="lib/abstract-shape-element.js"></script>
+
+    <script src="lib/svg-element.js"></script>
+    <script src="lib/svg-group-element.js"></script>
+    <script src="lib/svg-canvas-element.js"></script>
+    <script src="lib/svg-shape-element.js"></script>
+    <script src="lib/svg-path-element.js"></script>
+    <script src="lib/svg-circle-element.js"></script>
+
+    <script src="lib/vml-element.js"></script>
+    <script src="lib/vml-group-element.js"></script>
+    <script src="lib/vml-canvas-element.js"></script>
+    <script src="lib/vml-shape-element.js"></script>
+    <script src="lib/vml-path-element.js"></script>
+    <script src="lib/vml-circle-element.js"></script>
+
+    <script src="lib/vector-canvas.js"></script>
+    <!--<script src="lib/simple-scale.js"></script>
+    <script src="lib/numeric-scale.js"></script>
+    <script src="lib/ordinal-scale.js"></script>
+    <script src="lib/color-scale.js"></script>
+    <script src="lib/data-series.js"></script>
+    <script src="lib/proj.js"></script>-->
+    <script src="lib/world-map.js"></script>
+
+    <script src="map/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="map/jquery-jvectormap-us-merc-en.js"></script>
+    <script src="map/jquery-jvectormap-fr-merc-en.js"></script>
+
+    <!-- TubePLayer  -->
+    <script type='text/javascript' src='lib/jquery.tubeplayer.min.js'></script>
+
+    <script type="text/javascript" src='js/musicurious.js'></script>
+  </head>
+  <body>
+    <div id="map" class="full">
+      <div id="mapselect">
+      <h2>Select a map:</h2>
+      <ul >
+          <li><a href="?m=world_mill_en&r=world">World</a></li>
+          <li><a href="?m=us_merc_en&r=world">USA</a></li>
+          <li><a href="?m=fr_merc_en&r=world">France</a></li>
+      </ul>
+      </div>
+    </div>
+    <div id="menumap" class="menu">
+      <a id="zoomin" class="flaticon-zoom11"></a>
+      <a id="zoomout" class="flaticon-zoom10"></a>
+      <a id="resume" class="flaticon-arrow59"></a>
+    </div>
+    <div id="player" class="full">
+      <p id="citation">“The world is a book and those who do not travel read only one page.” ― Augustine of Hippo</p>
+    </div>
+    <div id="menuplayer" class="menu">
+      <a id="stop" class="flaticon-arrow58"></a>
+      <a id="more" class="flaticon-watch1"></a>
+    </div>
+    <div id="wiki" class="full">
+      <h1></h1>
+      <div id="article"></div>
+    </div>
+    <div id="menuwiki" class="menu infobox" >
+      <a id="less" class="flaticon-unwatch"></a>
+      <a id="share" class="flaticon-heart9"></a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+
+/* main */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  }
+
+html, body{
+  height: 100%;
+}
+body{
+  overflow:hidden;
+}
+a{
+  color: inherit;
+  border-bottom: 1px dashed rgba(255,255,255,0.5);
+  text-decoration: none;
+}
+a:hover{
+  color: rgba(100,100,255,0.5);
+}
+.full{ 
+  height: 100%;
+  width: 100%; 
+}
+
+/* Map selection */
+#mapselect{
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#mapselect h2{
+  padding: 30px;
+}
+
+#mapselect ul{
+  list-style-type: none;
+}
+
+
+
+/* navigation */
+div.menu{
+  position: fixed;
+  left: 50%;
+  bottom: 1%;
+  margin-left: -85px; // 170 / 2
+  width: 170px;
+  height: 60px;
+}
+
+a[class^="flaticon-"]{
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+  border: none;
+}
+a[class^="flaticon-"]:hover{
+  color: rgba(255,255,255,1.0);
+}
+
+/* map */
+#map{
+  background : url('http://fc09.deviantart.net/fs70/f/2012/014/0/1/bokeh_texture_by_blueangelstock-d4mbwpr.jpg') no-repeat center center grey; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* citation */
+#citation{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #000;
+  color: #CCC;
+  text-align: center;
+}
+
+/* player */
+#player{
+  background-color: black; 
+}
+
+/* wiki */
+#wiki{
+  background: url('http://wallpoper.com/images/00/42/06/63/blurry-gaussian_00420663.jpg') no-repeat center center green;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+#wiki h1{
+  padding: 20px 0;
+  background: rgba(0,0,0,0.5);
+}
+
+#wiki h1 span{
+  display:inline-block;
+  vertical-align:middle
+}
+
+#wiki {
+  overflow-y: auto;
+}
+
+#wiki #article > p
+{
+  padding: 2%;
+}
+
+#wiki #article{
+  margin: 20px auto 20px auto;
+  max-width: 1024px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding : 10px;
+}
+
+/** could be infobox, infobox_v3, etc. */
+#wiki #article [class^=infobox]{
+  float: right;
+  padding-left: 2%;
+  font-size: 0.8em;
+}
+
+/* infobox */
+.infobox th[colspan="2"], 
+div.infobox_v3 table > caption{ /* title row */ 
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 2%;
+}
+
+.infobox tr:first-of-type > th[colspan="2"], 
+div.infobox_v3 > p:first-of-type{ /* first title row */
+  display: none;
+}
+
+#wiki #article [class^=infobox] .thumbinner img{
+   border-radius: 5px;
+}
+
+div.infobox_v3 .center,
+div.infobox_v3 .thumb, 
+div.infobox_v3 .legend{
+  text-align: center;
+}
+
+div.infobox_v3 table{
+  width: 100%;
+}
